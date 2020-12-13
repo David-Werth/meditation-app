@@ -62,6 +62,7 @@ video {
   height: 10%;
   background: none;
   border: 2px solid white;
+  backdrop-filter: blur(30px);
   cursor: pointer;
   border-radius: 5px;
   font-size: 20px;
@@ -79,7 +80,6 @@ video {
   border-radius: 20%;
   padding: 30px;
   border: 2px solid white;
-  backdrop-filter: blur(30px);
 }
 
 .sound-picker button img {
